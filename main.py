@@ -1,7 +1,8 @@
 import cv2
 from ultralytics import YOLO
 
-VIDEO_PATH = "13181612_3840_2160_60fps.mp4"
+
+VIDEO_PATH = "video/video_input.mp4"
 OUTPUT_PATH = "output_detected.mp4"
 
 # Charger modèle
@@ -68,3 +69,4 @@ while True:
 cap.release()
 out.release()
 cv2.destroyAllWindows()
+
